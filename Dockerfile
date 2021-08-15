@@ -13,5 +13,6 @@ WORKDIR /opt/hello-world-app
 COPY . /opt/hello-world-app
 
 # run
+RUN npm i
 EXPOSE 3000
 CMD ["npm", "start"]
